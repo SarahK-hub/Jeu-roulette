@@ -17,10 +17,10 @@
   const messageDiv = document.getElementById("message");
   const spinBtn = document.getElementById("spin");
    const miseBtn = document.getElementById("Mise");
-   const rater = new Audio("../sons/8-bit-video-game-fail-version-2-145478.mp3");
-  const gain = new Audio("../sons/11l-victory_trumpet-1749704469779-358762.mp3");
-  const slot = new Audio("../sons/slot-machine-payout-81725.mp3");
-  const victoire = new Audio("../sons/winning-218995.mp3");
+   const rater = new Audio("./sons/8-bit-video-game-fail-version-2-145478.mp3");
+  const gain = new Audio("./sons/11l-victory_trumpet-1749704469779-358762.mp3");
+  const slot = new Audio("./sons/slot-machine-payout-81725.mp3");
+  const victoire = new Audio("./sons/winning-218995.mp3");
   
 
   
