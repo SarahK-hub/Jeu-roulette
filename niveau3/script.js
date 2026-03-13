@@ -1,6 +1,12 @@
 
 (function () {
-  const symbols = ["😍", "😂", "😊", "😘", "😎", "😁"];
+  const symbols = [
+  "😍", "😍", "😍", "😍",
+  "😂", "😂", "😂",
+  "😊", "😊",
+  "😘", "😎", "😁",
+  "⭐" // rare
+];
   let credits = 10;
 
   const creditSpan = document.getElementById("credit-value");

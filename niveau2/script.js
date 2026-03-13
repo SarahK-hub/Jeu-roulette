@@ -5,7 +5,13 @@
   - Deux symboles identiques : +2 crédits.
 */
 (function () {
-  const symbols = ["😍", "😂", "😊", "😘", "😎", "😁"];
+  const symbols = [
+  "😍", "😍", "😍", "😍",
+  "😂", "😂", "😂",
+  "😊", "😊",
+  "😘", "😎", "😁",
+  "⭐" // rare
+];
   let credits = 10;
 
   const creditSpan = document.getElementById("credit-value");
@@ -37,6 +43,7 @@
   }
 
   function evaluate(results,Mise) {
+    
     const [a, b, c,d] = results;
     if (a === b && b === c && c===d) {
       const win=Mise*10;
